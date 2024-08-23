@@ -1,7 +1,3 @@
-Here's the updated README file with the additional sections and a Table of Contents:
-
----
-
 # MediVisor: Medical Visual Question Answering
 
 ## Table of Contents
@@ -36,25 +32,6 @@ Here's the updated README file with the additional sections and a Table of Conte
 - **Performance Evaluation**: The model's performance can be evaluated using BLEU and METEOR scores, which are common metrics for assessing natural language processing tasks.
 - **Custom Dataset Integration**: The system is flexible and can be adapted to different datasets within the medical domain.
 - **Transfer Learning**: Uses pre-trained models fine-tuned on the PathVQA dataset, making it suitable for medical applications.
-
-## Project Structure
-
-```
-MediVisor/
-│
-├── data/                               # Directory containing datasets and annotations
-├── models/                             # Directory to save and load trained models
-├── notebooks/                          # Jupyter notebooks for exploration and experimentation
-├── src/                                # Source code directory
-│   ├── predict.py                      # Script for predicting answers from images
-│   ├── evaluate.py                     # Script for evaluating model performance
-│   ├── dataset.py                      # Custom Dataset class for PathVQA
-│   └── utils.py                        # Utility functions
-│
-├── README.md                           # This README file
-├── requirements.txt                    # Python dependencies
-└── setup.py                            # Setup script for the project
-```
 
 ## Getting Started
 
@@ -138,29 +115,29 @@ print(f"Average METEOR score: {avg_meteor}")
 ### ViLT - B32 Model Architecture
 
 
-![Model](Model.png)
+![Model](images/Model.png)
 
 
 ### Visual Embedding Schema
 
 
-![VisualEmbeddingSchema](VisualEmbeddingSchema.png)
+![VisualEmbeddingSchema](images/VisualEmbeddingSchema.png)
 
 
 ## Performance
 
 ### Before Fine Tuning
 
-![BeforeFineTuning](BeforeFineTuning.png)
+![BeforeFineTuning](images/BeforeFineTuning.png)
 
 
 ### After Fine Tuning
 
-![AfterFineTuning](AfterFineTuning.png)
+![AfterFineTuning](images/AfterFineTuning.png)
 
 ## Loss
 
-![Loss](Loss.png)
+![Loss](images/Loss.png)
 
 ## Examples
 
@@ -196,5 +173,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For further queries, feel free to reach out:
 
-- **Samama Farooq** - [your-email@example.com](samama4200@gmail.com)
-- **LinkedIn** - [your-linkedin-profile](www.linkedin.com/in/samama-)
+- **Samama Farooq** - [samama4200@gmail.com](samama4200@gmail.com)
+- **LinkedIn** - [www.linkedin.com/in/samama-](www.linkedin.com/in/samama-)
