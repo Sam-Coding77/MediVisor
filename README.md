@@ -115,7 +115,15 @@ print(f"Average METEOR score: {avg_meteor}")
 ### ViLT - B32 Model Architecture
 
 
+
+
+
+
 ![Model](images/Model.png)
+
+
+
+
 
 
 ### Visual Embedding Schema
