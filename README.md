@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
+- [VQA Shortcomings](#vqa-shortcomings)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -32,6 +33,26 @@
 - **Performance Evaluation**: The model's performance can be evaluated using BLEU and METEOR scores, which are common metrics for assessing natural language processing tasks.
 - **Custom Dataset Integration**: The system is flexible and can be adapted to different datasets within the medical domain.
 - **Transfer Learning**: Uses pre-trained models fine-tuned on the PathVQA dataset, making it suitable for medical applications.
+
+## VQA Shortcomings
+
+### Data Bias
+VQA systems are trained on large datasets of images and text, and these datasets can be biased. This can lead to VQA systems that are biased in their answers.
+
+### Open-ended Questions
+VQA systems can struggle to answer open-ended questions, as these questions often require a deep understanding of context and the ability to reason.
+
+### Commonsense Reasoning
+VQA systems often lack commonsense reasoning, which can lead to them providing inaccurate or misleading answers.
+
+### Lack of Robustness
+VQA models can be sensitive to slight changes in input, such as variations in image quality or phrasing of questions. This lack of robustness can result in inconsistent performance across different scenarios.
+
+### Ambiguity in Questions and Answers
+Some questions may have multiple valid answers, and VQA systems can struggle to choose the most appropriate one. This ambiguity can lead to confusion or incorrect answers if the model is not equipped to handle it properly.
+
+### Multimodal Integration Issues
+Integrating visual and textual data effectively is challenging, and VQA models may fail to correctly align the information from both modalities, leading to errors in understanding and answering questions.
 
 ## Getting Started
 
@@ -181,5 +202,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For further queries, feel free to reach out:
 
-- **Samama Farooq** - [samama4200@gmail.com](samama4200@gmail.com)
+- **Gmail** - [samama4200@gmail.com](samama4200@gmail.com)
 - **LinkedIn** - [www.linkedin.com/in/samama-](www.linkedin.com/in/samama-)
