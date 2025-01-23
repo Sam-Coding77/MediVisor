@@ -170,7 +170,7 @@ print(f"Average METEOR score: {avg_meteor}")
 
 ## Examples
 
-![Example](image/image.png)
+![Example](images/image.png)
 
 ## Troubleshooting
 
