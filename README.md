@@ -170,11 +170,7 @@ print(f"Average METEOR score: {avg_meteor}")
 
 ## Examples
 
-You can find example notebooks in the `notebooks/` directory that demonstrate:
-
-- How to load and preprocess the dataset.
-- How to predict answers using the model.
-- How to evaluate the model’s performance.
+![Example](image/image.png)
 
 ## Troubleshooting
 
